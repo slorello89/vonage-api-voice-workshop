@@ -1,4 +1,4 @@
-baseURL = "https://voice-workshop.nexmodev.com/"
+baseURL = "https://vonage-api-voice-workshop.nexmodev.com/"
 languageCode = "en-us"
 title = "Voice Workshop"
 theme = "learn"

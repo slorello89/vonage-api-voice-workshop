@@ -367,7 +367,7 @@ Pieces of the Voice API
 Further Reading
 ===============
 
-* Exercises at https://voice-workshop.nexmodev.com/
+* Exercises at https://vonage-api-voice-workshop.nexmodev.com/
 * Our blog https://nexmo.com/blog
 * Tell us what you think! ``@NexmoDev`` on twitter
 

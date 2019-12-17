@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Interact with your user on Voice Workshop</title>
-    <link>https://voice-workshop.nexmodev.com/user-input/</link>
+    <link>https://vonage-api-voice-workshop.nexmodev.com/user-input/</link>
     <description>Recent content in Interact with your user on Voice Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://voice-workshop.nexmodev.com/user-input/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vonage-api-voice-workshop.nexmodev.com/user-input/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

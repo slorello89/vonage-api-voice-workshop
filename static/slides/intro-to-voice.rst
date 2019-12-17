@@ -366,7 +366,7 @@ https://github.com/Nexmo/voice-event-logger - it can be run locally or deployed 
 Further Reading
 ===============
 
-* Exercises at https://voice-workshop.nexmodev.com/
+* Exercises at https://vonage-api-voice-workshop.nexmodev.com/
 * Developer portal https://developer.nexmo.com
 * Tutorials for Voice API https://developer.nexmo.com/voice/voice-api/use-cases/
 * Our blog https://nexmo.com/blog
