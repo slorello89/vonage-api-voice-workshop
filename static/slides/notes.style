@@ -1,0 +1,28 @@
+embeddedFonts: []
+   [fonts/Inconsolata-Regular.ttf, fonts/Inconsolata-Bold.ttf, fonts/Inconsolata-Bold.ttf, fonts/Inconsolata-Regular.ttf]
+   [fonts/GentiumPlus-R.ttf, fonts/GentiumPlus-R.ttf, fonts/GentiumPlus-R.ttf, fonts/GentiumPlus-R.ttf]
+   [fonts/AndikaNewBasic-R.ttf, fonts/AndikaNewBasic-B.ttf, fonts/AndikaNewBasic-BI.ttf, fonts/AndikaNewBasic-I.ttf]
+
+fontsAlias:
+    stdFont: fonts/GentiumPlus-R
+    stdBold: fonts/AndikaNewBasic-B
+    stdMono: fonts/Inconsolata-Regular
+    stdMonoBold: fonts/Inconsolata-Bold
+    stdMonoItalic: fonts/Inconsolata-Regular
+    stdMonoBoldItalic: fonts/Inconsolata-Bold
+    stdSerif: Times-Roman
+
+linkColor: #484dbe
+
+styles:
+    normal:
+        fontName: stdFont
+        textColor: #000000
+        fontSize: 14
+        bulletFontName: stdMono
+
+    slide-title:
+        parent: normal
+        fontName: stdBold
+        fontSize: 110%
+

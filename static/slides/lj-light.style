@@ -1,0 +1,148 @@
+embeddedFonts: []
+   [fonts/Inconsolata-Regular.ttf, fonts/Inconsolata-Bold.ttf, fonts/Inconsolata-Bold.ttf, fonts/Inconsolata-Regular.ttf]
+   [fonts/GentiumPlus-R.ttf, fonts/GentiumPlus-R.ttf, fonts/GentiumPlus-R.ttf, fonts/GentiumPlus-R.ttf]
+   [fonts/AndikaNewBasic-R.ttf, fonts/AndikaNewBasic-B.ttf, fonts/AndikaNewBasic-BI.ttf, fonts/AndikaNewBasic-I.ttf]
+
+pageSetup:
+    size: null
+    width: 16cm
+    height: 9cm
+    margin-top: 0cm
+    margin-bottom: 0cm
+    margin-left: 0cm
+    margin-right: 0cm
+    margin-gutter: 0cm
+    spacing-header: 2mm
+    spacing-footer: 2mm
+    firstTemplate: coverPage
+
+pageTemplates:
+    coverPage:
+        frames: []
+            [15%, 10%, 70%, 80%]
+        background: images/signpost-slide.png
+        showHeader: false
+        showFooter: false
+
+    standardPage:
+        frames: []
+            [2%, 1%, 98%, 102%]
+        background: images/white.jpg
+        showHeader: false
+        showFooter: true
+
+    titlePage:
+        frames: []
+            [3%, 3%, 94%, 75%]
+        background: images/white.jpg
+        showHeader: false
+        showFooter: true
+        alignment: TA_CENTER
+
+    stepsPage:
+        frames: []
+            [1%, 3%, 99%, 75%]
+        background: images/steps-slide.png
+        showHeader: false
+        showFooter: true
+        alignment: TA_CENTER
+
+    signpostPage:
+        frames: []
+            [3%, 3%, 94%, 75%]
+        background: images/signpost-slide.png
+        showHeader: false
+        showFooter: true
+        alignment: TA_CENTER
+
+    comboPage:
+        frames: []
+            [3%, 3%, 94%, 75%]
+        background: images/ss-slide.png
+        showHeader: false
+        showFooter: true
+        alignment: TA_CENTER
+
+fontsAlias:
+    stdFont: fonts/GentiumPlus-R
+    stdBold: fonts/AndikaNewBasic-B
+    stdMono: fonts/Inconsolata-Regular
+    stdMonoBold: fonts/Inconsolata-Bold
+    stdMonoItalic: fonts/Inconsolata-Regular
+    stdMonoBoldItalic: fonts/Inconsolata-Bold
+    stdSerif: Times-Roman
+
+linkColor: #484dbe
+
+styles:
+    normal:
+        fontName: stdFont
+        textColor: #383745
+        fontSize: 14
+        bulletFontName: stdMono
+
+    bodytext:
+        alignment: TA_LEFT
+        spaceAfter: 0
+
+    title:
+        fontName: stdBold
+
+    heading:
+        fontName: stdBold
+        textColor: #003377
+        fontSize: 105%
+
+    heading1:
+        parent: heading
+
+    titleslideinfo:
+        parent: normal
+        fontSize: 130%
+        alignment: TA_CENTER
+
+    literal:
+      fontName: stdMono
+      textColor: #666666
+
+    code:
+      fontName: stdMonoBold
+      backColor: #fffff0
+      parent: literal
+      leftIndent: 0
+      fontSize: 12
+      spaceBefore: 2
+      spaceAfter: 0
+      borderColor: #000000
+      borderWidth: 0
+      borderPadding: 3
+
+    bullet-list:
+      spaceBefore: 4
+
+    bullet-list-item:
+      spaceBefore: 2
+      spaceAfter: 0
+
+    bodytext:
+      parent: normal
+      spaceBefore: 0
+
+    noborder:
+      parent: table
+      commands: []
+                [INNERGRID, [0, 0], [-1, -1], 1, white]
+                [ROWBACKGROUNDS, [0, 0], [-1, -1], [white, white]]
+                [BOX, [0, 0], [-1, -1], 0, white]
+
+    footer:
+      parent: normal
+      fontSize: 70%
+      textColor: #999999
+      alignment: TA_RIGHT
+      rightIndent: 4
+
+    bigger:
+        alignment: TA_CENTER
+        fontSize: 18
+

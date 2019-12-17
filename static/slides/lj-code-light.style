@@ -1,0 +1,28 @@
+styles:
+    pygments-cp: {parent: code, textColor: #383745}
+
+# keyword
+    pygments-k: {parent: code, textColor: #991d66}
+
+    pygments-na: {parent: code, textColor: #1ec753}
+# builtin includes var_dump
+    pygments-nb: {parent: code, textColor: #1ec753}
+    pygments-nc: {parent: code, textColor: #383745}
+# function name
+    pygments-nf: {parent: code, textColor: #1ec753}
+    pygments-nt: {parent: code, textColor: #991d66}
+
+# operator
+    pygments-o: {parent: code, textColor: #968e95}
+# brackets and furniture	
+    pygments-p: {parent: code, textColor: #968e95}
+
+# strings
+    pygments-s: {parent: code, textColor: #383475}
+    pygments-s1: {parent: code, textColor: #383475}
+    pygments-s2: {parent: code, textColor: #383475}
+    pygments-sd: {parent: code, textColor: #383475}
+    pygments-se: {parent: code, textColor: #383475}
+
+
+

@@ -1,0 +1,8 @@
+baseURL = "https://voice-workshop.nexmodev.com/"
+languageCode = "en-us"
+title = "Voice Workshop"
+theme = "learn"
+pygmentsCodeFences = true
+pygmentsStyle = "dracula"
+[params]
+ themeVariant = "blue"

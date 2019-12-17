@@ -1,0 +1,6 @@
+[submodule "themes/hugo-theme-learn"]
+	path = themes/hugo-theme-learn
+	url = git@github.com:nexmo-community/hugo-theme-learn.git
+[submodule "themes/learn"]
+	path = themes/learn
+	url = git@github.com:nexmo-community/hugo-theme-learn.git
